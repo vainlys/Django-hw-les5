@@ -1,13 +1,10 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title></title>
 </head>
 <body>
-    <link rel="stylesheet" href="{%}">
     <header><h2 id="mijntitel">Mijn website</h2></header>
     {% block content %}
         {% for post in posts %}
@@ -30,6 +27,7 @@
   padding: 10px 20px;
   border: 3px solid rgb(255, 255, 255);
   font-family:Arial, Helvetica, sans-serif;
+  width: 400px;
   
 }
 
